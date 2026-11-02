@@ -7,7 +7,7 @@ function calculateMinCost() {
 	for(let i=0;i<arr.length;i++)
 		{
 			let cost=Number(arr[i])+Number(arr[i+1])
-			finalCost+=cost+Number(arr[i])
+			finalCost+=cost
 		}
   let result= document.getElementById("result")
 	result.innerText=finalCost
